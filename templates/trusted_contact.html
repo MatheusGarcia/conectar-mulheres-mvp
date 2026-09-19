@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro"><h1>Prepare uma mensagem</h1><p>Nada será enviado sem sua confirmação.</p></section>
+<form class="contact-form" data-whatsapp-form>
+  <label for="contact-name">Nome do contato <span>(opcional)</span></label>
+  <input id="contact-name" autocomplete="off" placeholder="Ex.: Ana">
+  <label for="contact-phone">Número do WhatsApp</label>
+  <input id="contact-phone" inputmode="tel" autocomplete="off" placeholder="(83) 9 0000-0000" required>
+  <label for="contact-message">Mensagem</label>
+  <textarea id="contact-message" rows="5" required>Preciso que você entre em contato comigo. Se eu não responder, procure ajuda.</textarea>
+  <p class="field-help">A mensagem pode ser editada antes do envio.</p>
+  <button class="button button--primary button--full" type="submit">Revisar no WhatsApp</button>
+</form>
+<aside class="notice"><strong>Sobre seus dados</strong><p>O contato fica somente nesta página e não é enviado para o servidor neste MVP.</p></aside>
+<p class="privacy-line">✓ Você controla quando e o que enviar</p>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro page-intro--compact"><h1>Ajuda imediata</h1></section>
+<a class="action-card action-card--danger" href="tel:190">
+  <span class="eyebrow eyebrow--danger">Emergência em andamento</span>
+  <strong>Ligar para 190</strong><small>Polícia Militar · atendimento imediato</small><span aria-hidden="true">☎</span>
+</a>
+<a class="action-card" href="tel:180">
+  <span class="eyebrow">Orientação e denúncia</span>
+  <strong>Ligue 180</strong><small>Central de Atendimento à Mulher · 24h</small><span aria-hidden="true">☎</span>
+</a>
+<a class="action-card" href="{{ url_for('trusted_contact') }}">
+  <span class="eyebrow">Pessoa de confiança</span>
+  <strong>Preparar mensagem</strong><small>Você revisará tudo antes de enviar</small><span aria-hidden="true">›</span>
+</a>
+<aside class="notice">
+  <strong>Sua segurança vem primeiro</strong>
+  <p>Se alguém monitora seu aparelho, considere usar outro dispositivo ou buscar atendimento presencial.</p>
+</aside>
+<p class="privacy-line">✓ Nenhuma ligação é feita automaticamente</p>
+{% endblock %}

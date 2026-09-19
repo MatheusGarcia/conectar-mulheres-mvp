@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="1900" viewBox="0 0 1840 1900">
+  <style>
+    .bg{fill:#F8FAF8}.surface{fill:#FFFFFF}.subtle{fill:#E8F7F1}.teal{fill:#0C6C56}.teal2{fill:#07473B}.danger{fill:#C42C1E}.dangerbg{fill:#FFF0ED}.amber{fill:#FFF3C9}.border{stroke:#E1E6E2;stroke-width:1}.title{font:700 24px Inter,Arial;fill:#131E19}.h2{font:600 18px Inter,Arial;fill:#131E19}.body{font:400 14px Inter,Arial;fill:#64716A}.label{font:600 13px Inter,Arial;fill:#131E19}.small{font:500 11px Inter,Arial;fill:#64716A}.white{fill:#FFFFFF}.center{text-anchor:middle}.screenlabel{font:700 18px Inter,Arial;fill:#07473B}.icon{font:500 22px Inter,Arial}.nav{font:500 10px Inter,Arial;fill:#64716A}.active{fill:#0C6C56}.shadow{filter:drop-shadow(0 5px 14px rgba(7,71,59,.10))}
+  </style>
+  <rect width="1840" height="1900" fill="#EEF3EF"/>
+  <text x="70" y="52" style="font:700 30px Inter,Arial;fill:#131E19">Conectar Mulheres · Mockups MVP v1</text>
+  <text x="70" y="82" class="body">Aplicação web responsiva · Python + Flask · Sem login · João Pessoa/PB</text>
+
+  <!-- Screen 1 -->
+  <g id="01-abertura" transform="translate(70 140)">
+    <text x="195" y="-24" class="screenlabel center">01 · Abertura discreta</text>
+    <rect width="390" height="844" rx="28" class="bg shadow"/>
+    <rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <circle cx="195" cy="250" r="58" class="subtle"/><text x="195" y="260" class="icon center active">CM</text>
+    <text x="195" y="348" class="title center">Informação e apoio</text>
+    <text x="195" y="378" class="body center">Encontre orientação e serviços próximos</text>
+    <rect x="32" y="450" width="326" height="56" rx="28" class="teal"/><text x="195" y="485" class="label white center">Entrar com segurança</text>
+    <rect x="32" y="522" width="326" height="56" rx="28" class="surface border"/><text x="195" y="557" class="label center">Sair rapidamente</text>
+    <rect x="32" y="620" width="326" height="92" rx="16" class="amber"/>
+    <text x="52" y="650" class="label">Antes de continuar</text><text x="52" y="676" class="body">Use um dispositivo seguro e apague o</text><text x="52" y="698" class="body">histórico se isso puder proteger você.</text>
+    <text x="195" y="792" class="small center">Nenhum cadastro é necessário</text>
+  </g>
+
+  <!-- Screen 2 -->
+  <g id="02-inicio" transform="translate(520 140)">
+    <text x="195" y="-24" class="screenlabel center">02 · Página inicial</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="72" class="small active">CONECTAR MULHERES</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <text x="24" y="124" class="title">Como podemos ajudar?</text><text x="24" y="150" class="body">Informação segura, sem julgamento.</text>
+    <rect x="24" y="184" width="342" height="112" rx="18" class="dangerbg"/><text x="48" y="218" class="small" style="fill:#C42C1E">SITUAÇÃO DE RISCO</text><text x="48" y="248" class="h2">Preciso de ajuda agora</text><text x="48" y="274" class="body">Acesse 190, 180 e contato de confiança</text><text x="336" y="250" class="icon" style="fill:#C42C1E">›</text>
+    <text x="24" y="340" class="h2">Encontre apoio</text>
+    <rect x="24" y="360" width="163" height="132" rx="18" class="surface border"/><circle cx="56" cy="394" r="18" class="subtle"/><text x="56" y="402" class="icon active center">⌖</text><text x="44" y="438" class="label">Rede de apoio</text><text x="44" y="462" class="small">Serviços próximos</text>
+    <rect x="203" y="360" width="163" height="132" rx="18" class="surface border"/><circle cx="235" cy="394" r="18" class="subtle"/><text x="235" y="402" class="icon active center">i</text><text x="223" y="438" class="label">Orientações</text><text x="223" y="462" class="small">Artigos confiáveis</text>
+    <text x="24" y="536" class="h2">Destaque</text><rect x="24" y="556" width="342" height="112" rx="18" class="surface border"/><text x="44" y="588" class="small active">PLANO DE SEGURANÇA</text><text x="44" y="616" class="label">Passos para uma saída mais segura</text><text x="44" y="642" class="small">Leitura de 4 minutos</text>
+    <rect x="0" y="772" width="390" height="72" class="surface"/><text x="49" y="804" class="icon active center">⌂</text><text x="49" y="827" class="nav active center">Início</text><text x="147" y="804" class="icon center">⌖</text><text x="147" y="827" class="nav center">Apoio</text><text x="244" y="804" class="icon center">≡</text><text x="244" y="827" class="nav center">Artigos</text><text x="341" y="804" class="icon center">♡</text><text x="341" y="827" class="nav center">Contato</text>
+  </g>
+
+  <!-- Screen 3 -->
+  <g id="03-ajuda" transform="translate(970 140)">
+    <text x="195" y="-24" class="screenlabel center">03 · Ajuda imediata</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="danger"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Ajuda imediata</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <rect x="24" y="106" width="342" height="138" rx="20" class="danger"/><text x="48" y="142" class="small white">EMERGÊNCIA EM ANDAMENTO</text><text x="48" y="178" class="title white">Ligar para 190</text><text x="48" y="208" class="body white">Polícia Militar · atendimento imediato</text><circle cx="325" cy="175" r="26" fill="#FFFFFF" opacity=".18"/><text x="325" y="184" class="icon white center">☎</text>
+    <rect x="24" y="264" width="342" height="138" rx="20" class="teal"/><text x="48" y="300" class="small white">ORIENTAÇÃO E DENÚNCIA</text><text x="48" y="336" class="title white">Ligue 180</text><text x="48" y="366" class="body white">Central de Atendimento à Mulher · 24h</text><circle cx="325" cy="333" r="26" fill="#FFFFFF" opacity=".18"/><text x="325" y="342" class="icon white center">☎</text>
+    <rect x="24" y="422" width="342" height="126" rx="20" class="surface border"/><text x="48" y="458" class="small active">PESSOA DE CONFIANÇA</text><text x="48" y="490" class="h2">Preparar mensagem</text><text x="48" y="518" class="body">Você revisará tudo antes de enviar</text><text x="334" y="491" class="icon active">›</text>
+    <rect x="24" y="580" width="342" height="132" rx="18" class="amber"/><text x="44" y="616" class="label">Sua segurança vem primeiro</text><text x="44" y="644" class="body">Se alguém monitora seu aparelho, considere</text><text x="44" y="666" class="body">usar outro dispositivo ou atendimento presencial.</text>
+    <text x="195" y="780" class="small center">Nenhuma ligação é feita automaticamente</text>
+  </g>
+
+  <!-- Screen 4 -->
+  <g id="04-rede" transform="translate(1420 140)">
+    <text x="195" y="-24" class="screenlabel center">04 · Rede de apoio</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Rede de apoio</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <rect x="24" y="102" width="342" height="48" rx="24" class="surface border"/><text x="48" y="132" class="body">⌕  Buscar serviço ou bairro</text>
+    <rect x="24" y="166" width="100" height="34" rx="17" class="teal"/><text x="74" y="188" class="small white center">Todos</text><rect x="132" y="166" width="104" height="34" rx="17" class="surface border"/><text x="184" y="188" class="small center">Delegacia</text><rect x="244" y="166" width="122" height="34" rx="17" class="surface border"/><text x="305" y="188" class="small center">Acolhimento</text>
+    <rect x="24" y="220" width="342" height="168" rx="18" fill="#DCEAE4"/><path d="M55 255 C120 230 160 300 220 268 S320 245 356 300" fill="none" stroke="#B5CEC2" stroke-width="9"/><circle cx="112" cy="286" r="12" class="teal"/><circle cx="260" cy="312" r="12" class="danger"/><text x="44" y="366" class="small">Mapa ilustrativo · João Pessoa</text>
+    <text x="24" y="430" class="h2">Serviços próximos</text>
+    <rect x="24" y="450" width="342" height="126" rx="18" class="surface border"/><text x="44" y="480" class="small active">ACOLHIMENTO · 1,2 KM</text><text x="44" y="508" class="label">Centro de Referência Ednalva Bezerra</text><text x="44" y="534" class="small">Atendimento social, psicológico e jurídico</text><text x="44" y="558" class="small">Aberto hoje · até 17h</text><text x="338" y="515" class="icon active">›</text>
+    <rect x="24" y="590" width="342" height="112" rx="18" class="surface border"/><text x="44" y="620" class="small active">DELEGACIA ESPECIALIZADA · 2,4 KM</text><text x="44" y="648" class="label">DEAM João Pessoa</text><text x="44" y="674" class="small">Orientação, registro e medidas protetivas</text><text x="338" y="652" class="icon active">›</text>
+    <rect x="0" y="772" width="390" height="72" class="surface"/><text x="49" y="804" class="icon center">⌂</text><text x="49" y="827" class="nav center">Início</text><text x="147" y="804" class="icon active center">⌖</text><text x="147" y="827" class="nav active center">Apoio</text><text x="244" y="804" class="icon center">≡</text><text x="244" y="827" class="nav center">Artigos</text><text x="341" y="804" class="icon center">♡</text><text x="341" y="827" class="nav center">Contato</text>
+  </g>
+
+  <!-- Screen 5 -->
+  <g id="05-servico" transform="translate(70 1040)">
+    <text x="195" y="-24" class="screenlabel center">05 · Detalhes do serviço</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Detalhes do serviço</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <rect x="24" y="104" width="342" height="154" rx="20" class="subtle"/><circle cx="76" cy="152" r="28" class="teal"/><text x="76" y="161" class="icon white center">⌖</text><text x="120" y="142" class="small active">CENTRO DE REFERÊNCIA</text><text x="120" y="172" class="h2">Ednalva Bezerra</text><text x="120" y="198" class="body">Acolhimento multidisciplinar</text><text x="44" y="236" class="small">Fonte verificada · Prefeitura de João Pessoa</text>
+    <text x="24" y="304" class="h2">Atendimento</text><text x="24" y="336" class="body">Social, psicológico, jurídico e encaminhamento</text><text x="24" y="358" class="body">para a rede de proteção.</text>
+    <rect x="24" y="390" width="342" height="82" rx="16" class="surface border"/><text x="44" y="422" class="label">Endereço</text><text x="44" y="450" class="body">Rua Afonso Campos, 111 · Centro</text>
+    <rect x="24" y="486" width="342" height="82" rx="16" class="surface border"/><text x="44" y="518" class="label">Horário</text><text x="44" y="546" class="body">Segunda a sexta · 8h às 17h</text>
+    <rect x="24" y="600" width="163" height="56" rx="28" class="teal"/><text x="106" y="635" class="label white center">Ver rota</text><rect x="203" y="600" width="163" height="56" rx="28" class="surface border"/><text x="284" y="635" class="label active center">Ligar</text>
+    <rect x="24" y="684" width="342" height="78" rx="16" class="amber"/><text x="44" y="714" class="label">Confirme antes de ir</text><text x="44" y="740" class="small">Horários podem mudar em feriados.</text>
+  </g>
+
+  <!-- Screen 6 -->
+  <g id="06-artigos" transform="translate(520 1040)">
+    <text x="195" y="-24" class="screenlabel center">06 · Artigos</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Orientações</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <text x="24" y="116" class="title">Informação pode proteger</text><text x="24" y="144" class="body">Conteúdo revisto e baseado em fontes oficiais.</text>
+    <rect x="24" y="176" width="342" height="142" rx="20" class="teal"/><text x="48" y="210" class="small white">COMECE POR AQUI</text><text x="48" y="244" class="h2 white">Estou sofrendo violência.</text><text x="48" y="270" class="h2 white">O que posso fazer?</text><text x="48" y="298" class="small white">Leitura de 5 minutos</text>
+    <text x="24" y="362" class="h2">Outros temas</text>
+    <rect x="24" y="382" width="342" height="106" rx="18" class="surface border"/><text x="44" y="412" class="small active">SEGURANÇA</text><text x="44" y="440" class="label">Como montar um plano de segurança</text><text x="44" y="466" class="small">4 min · Atualizado recentemente</text><text x="338" y="442" class="icon active">›</text>
+    <rect x="24" y="502" width="342" height="106" rx="18" class="surface border"/><text x="44" y="532" class="small active">DIREITOS</text><text x="44" y="560" class="label">Entenda a medida protetiva</text><text x="44" y="586" class="small">6 min · Fonte oficial</text><text x="338" y="562" class="icon active">›</text>
+    <rect x="24" y="622" width="342" height="106" rx="18" class="surface border"/><text x="44" y="652" class="small active">REDE DE APOIO</text><text x="44" y="680" class="label">Como apoiar alguém com segurança</text><text x="44" y="706" class="small">5 min · Guia prático</text><text x="338" y="682" class="icon active">›</text>
+    <rect x="0" y="772" width="390" height="72" class="surface"/><text x="49" y="804" class="icon center">⌂</text><text x="49" y="827" class="nav center">Início</text><text x="147" y="804" class="icon center">⌖</text><text x="147" y="827" class="nav center">Apoio</text><text x="244" y="804" class="icon active center">≡</text><text x="244" y="827" class="nav active center">Artigos</text><text x="341" y="804" class="icon center">♡</text><text x="341" y="827" class="nav center">Contato</text>
+  </g>
+
+  <!-- Screen 7 -->
+  <g id="07-artigo" transform="translate(970 1040)">
+    <text x="195" y="-24" class="screenlabel center">07 · Leitura do artigo</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Orientação</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <text x="24" y="116" class="small active">SEGURANÇA · 5 MIN</text><text x="24" y="154" class="title">Estou sofrendo violência.</text><text x="24" y="184" class="title">O que posso fazer?</text>
+    <text x="24" y="224" class="body">Você não é responsável pela violência.</text><text x="24" y="246" class="body">Procure ajuda no momento mais seguro para você.</text>
+    <rect x="24" y="276" width="342" height="100" rx="16" class="dangerbg"/><text x="44" y="308" class="label" style="fill:#C42C1E">Risco imediato?</text><text x="44" y="336" class="body">Ligue 190. Para orientação e denúncia,</text><text x="44" y="358" class="body">o Ligue 180 funciona 24 horas.</text>
+    <text x="24" y="420" class="h2">1. Priorize sua segurança</text><text x="24" y="450" class="body">Se possível, vá para um local com saída e evite</text><text x="24" y="472" class="body">ambientes com objetos que possam ferir.</text>
+    <text x="24" y="524" class="h2">2. Avise alguém de confiança</text><text x="24" y="554" class="body">Combine uma palavra ou mensagem que indique</text><text x="24" y="576" class="body">que você precisa de ajuda.</text>
+    <text x="24" y="628" class="h2">3. Busque atendimento</text><text x="24" y="658" class="body">A rede pode orientar sobre acolhimento, registro</text><text x="24" y="680" class="body">e medidas de proteção.</text>
+    <rect x="24" y="724" width="342" height="56" rx="28" class="teal"/><text x="195" y="759" class="label white center">Encontrar rede de apoio</text>
+    <text x="24" y="814" class="small">Fonte: serviços oficiais · Revisado em 2026</text>
+  </g>
+
+  <!-- Screen 8 -->
+  <g id="08-contato" transform="translate(1420 1040)">
+    <text x="195" y="-24" class="screenlabel center">08 · Contato de confiança</text><rect width="390" height="844" rx="28" class="bg shadow"/><rect width="390" height="26" rx="28" class="teal2"/><text x="24" y="18" class="small white">9:41</text>
+    <text x="24" y="70" class="icon">‹</text><text x="64" y="70" class="h2">Contato de confiança</text><rect x="300" y="44" width="66" height="36" rx="18" class="surface border"/><text x="333" y="67" class="small center">Sair</text>
+    <text x="24" y="118" class="title">Prepare uma mensagem</text><text x="24" y="148" class="body">Nada será enviado sem sua confirmação.</text>
+    <text x="24" y="200" class="label">Nome do contato</text><rect x="24" y="214" width="342" height="52" rx="12" class="surface border"/><text x="44" y="246" class="body">Ex.: Ana</text>
+    <text x="24" y="306" class="label">Número do WhatsApp</text><rect x="24" y="320" width="342" height="52" rx="12" class="surface border"/><text x="44" y="352" class="body">(83) 9 0000-0000</text>
+    <text x="24" y="412" class="label">Mensagem</text><rect x="24" y="426" width="342" height="136" rx="14" class="surface border"/><text x="44" y="458" class="body">Preciso que você entre em contato comigo.</text><text x="44" y="482" class="body">Se eu não responder, procure ajuda.</text><text x="44" y="522" class="small">A mensagem pode ser editada antes do envio.</text>
+    <rect x="24" y="586" width="342" height="56" rx="28" class="teal"/><text x="195" y="621" class="label white center">Revisar no WhatsApp</text>
+    <rect x="24" y="662" width="342" height="90" rx="16" class="amber"/><text x="44" y="694" class="label">Sobre seus dados</text><text x="44" y="720" class="small">O contato permanece neste dispositivo e não</text><text x="44" y="740" class="small">é enviado para o servidor neste MVP.</text>
+    <text x="195" y="802" class="small center">Você controla quando e o que enviar</text>
+  </g>
+</svg>

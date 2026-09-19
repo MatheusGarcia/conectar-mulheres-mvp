@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro page-intro--compact"><h1>Rede de apoio</h1></section>
+<form class="search" method="get" action="{{ url_for('services') }}">
+  <label class="sr-only" for="q">Buscar serviço ou bairro</label>
+  <input id="q" name="q" value="{{ query }}" placeholder="Buscar serviço ou bairro">
+  <input type="hidden" name="categoria" value="{{ category }}">
+  <button type="submit" aria-label="Buscar">⌕</button>
+</form>
+<div class="chips" aria-label="Filtrar por categoria">
+  {% for slug, label in [('todos','Todos'),('delegacia','Delegacia'),('acolhimento','Acolhimento'),('orientacao','Orientação')] %}
+  <a class="chip {{ 'active' if category == slug }}" href="{{ url_for('services', q=query, categoria=slug) }}">{{ label }}</a>
+  {% endfor %}
+</div>
+<div class="map-placeholder" aria-label="Mapa ilustrativo de João Pessoa"><span>⌖</span>Mapa ilustrativo · João Pessoa</div>
+<h2 class="section-title">Serviços encontrados</h2>
+<div class="card-list">
+  {% for service in services %}
+  <a class="list-card" href="{{ url_for('service_detail', slug=service.slug) }}">
+    <span class="eyebrow">{{ service.category }} · {{ service.distance }}</span>
+    <strong>{{ service.name }}</strong><small>{{ service.summary }}</small><span class="chevron" aria-hidden="true">›</span>
+  </a>
+  {% else %}
+  <div class="empty-state"><strong>Nenhum serviço encontrado</strong><p>Tente outro nome, bairro ou filtro.</p></div>
+  {% endfor %}
+</div>
+{% endblock %}

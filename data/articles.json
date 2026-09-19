@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "estou-sofrendo-violencia",
+    "category": "Segurança",
+    "title": "Estou sofrendo violência. O que posso fazer?",
+    "minutes": 5,
+    "summary": "Você não é responsável pela violência. Procure ajuda no momento mais seguro para você.",
+    "featured": true,
+    "sections": [
+      {"title": "Risco imediato?", "text": "Ligue 190. Para orientação, informação sobre serviços e registro de denúncia, ligue 180."},
+      {"title": "1. Priorize sua segurança", "text": "Se possível, vá para um local com saída e evite ambientes com objetos que possam ferir."},
+      {"title": "2. Avise alguém de confiança", "text": "Combine uma palavra ou mensagem que indique que você precisa de ajuda."},
+      {"title": "3. Busque atendimento", "text": "A rede pode orientar sobre acolhimento, registro e medidas de proteção."}
+    ]
+  },
+  {
+    "slug": "plano-de-seguranca",
+    "category": "Segurança",
+    "title": "Como montar um plano de segurança",
+    "minutes": 4,
+    "summary": "Passos práticos para reconhecer riscos, preparar contatos e planejar uma saída mais segura.",
+    "featured": false,
+    "sections": [
+      {"title": "Escolha contatos", "text": "Defina pessoas que possam ajudar e combine uma palavra de emergência."},
+      {"title": "Separe o essencial", "text": "Se for seguro, deixe documentos, medicamentos e chaves em local acessível."},
+      {"title": "Planeje caminhos", "text": "Identifique saídas e locais públicos ou serviços onde você possa pedir ajuda."}
+    ]
+  },
+  {
+    "slug": "medida-protetiva",
+    "category": "Direitos",
+    "title": "Entenda a medida protetiva",
+    "minutes": 6,
+    "summary": "Uma introdução às medidas de proteção e aos caminhos para buscar orientação oficial.",
+    "featured": false,
+    "sections": [
+      {"title": "O que é", "text": "É uma providência legal que pode restringir o contato e a aproximação do agressor."},
+      {"title": "Onde buscar orientação", "text": "Delegacias, Defensoria Pública e serviços especializados podem explicar os caminhos disponíveis."}
+    ]
+  },
+  {
+    "slug": "como-apoiar-alguem",
+    "category": "Rede de apoio",
+    "title": "Como apoiar alguém com segurança",
+    "minutes": 5,
+    "summary": "Escute sem julgamento, respeite decisões e ajude a localizar serviços confiáveis.",
+    "featured": false,
+    "sections": [
+      {"title": "Escute", "text": "Acolha o relato, evite culpabilizar e pergunte como você pode ajudar."},
+      {"title": "Respeite o ritmo", "text": "Não pressione decisões que possam aumentar o risco."},
+      {"title": "Ajude com informação", "text": "Compartilhe contatos oficiais e se ofereça para acompanhar a pessoa, se ela quiser."}
+    ]
+  }
+]

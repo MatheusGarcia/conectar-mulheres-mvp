@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "centro-ednalva-bezerra",
+    "name": "Centro de Referência Ednalva Bezerra",
+    "category": "Acolhimento",
+    "category_slug": "acolhimento",
+    "neighborhood": "Centro",
+    "summary": "Atendimento social, psicológico, jurídico e encaminhamento para a rede de proteção.",
+    "address": "Rua Afonso Campos, 111 · Centro · João Pessoa/PB",
+    "hours": "Segunda a sexta · 8h às 17h",
+    "phone": "",
+    "distance": "1,2 km",
+    "source_name": "Prefeitura de João Pessoa",
+    "source_url": "https://www.joaopessoa.pb.gov.br/",
+    "map_url": "https://www.openstreetmap.org/search?query=Rua%20Afonso%20Campos%20111%20Jo%C3%A3o%20Pessoa"
+  },
+  {
+    "slug": "deam-joao-pessoa",
+    "name": "DEAM João Pessoa",
+    "category": "Delegacia especializada",
+    "category_slug": "delegacia",
+    "neighborhood": "João Pessoa",
+    "summary": "Orientação, registro de ocorrência e encaminhamento para medidas protetivas.",
+    "address": "Consulte o endereço atualizado na fonte oficial antes de sair.",
+    "hours": "Confirme o horário antes de ir",
+    "phone": "",
+    "distance": "2,4 km",
+    "source_name": "Polícia Civil da Paraíba",
+    "source_url": "https://www.policiacivil.pb.gov.br/",
+    "map_url": "https://www.openstreetmap.org/search?query=DEAM%20Jo%C3%A3o%20Pessoa%20PB"
+  },
+  {
+    "slug": "ligue-180",
+    "name": "Central de Atendimento à Mulher — Ligue 180",
+    "category": "Orientação",
+    "category_slug": "orientacao",
+    "neighborhood": "Atendimento nacional",
+    "summary": "Orientação sobre direitos e serviços e registro de denúncias, 24 horas por dia.",
+    "address": "Atendimento por telefone em todo o Brasil",
+    "hours": "24 horas · todos os dias",
+    "phone": "180",
+    "distance": "Por telefone",
+    "source_name": "Governo Federal",
+    "source_url": "https://www.gov.br/mulheres/pt-br/ligue180",
+    "map_url": ""
+  }
+]

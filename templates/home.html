@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro">
+  <h1>Como podemos ajudar?</h1>
+  <p>Informação segura, sem julgamento.</p>
+</section>
+
+<a class="feature-card feature-card--danger" href="{{ url_for('emergency') }}">
+  <span class="eyebrow eyebrow--danger">Situação de risco</span>
+  <strong>Preciso de ajuda agora</strong>
+  <small>Acesse 190, 180 e contato de confiança</small>
+  <span class="chevron" aria-hidden="true">›</span>
+</a>
+
+<h2 class="section-title">Encontre apoio</h2>
+<div class="shortcut-grid">
+  <a class="shortcut" href="{{ url_for('services') }}"><span class="shortcut__icon" aria-hidden="true">⌖</span><strong>Rede de apoio</strong><small>Serviços próximos</small></a>
+  <a class="shortcut" href="{{ url_for('articles') }}"><span class="shortcut__icon" aria-hidden="true">i</span><strong>Orientações</strong><small>Artigos confiáveis</small></a>
+</div>
+
+<h2 class="section-title">Destaque</h2>
+<a class="article-highlight" href="{{ url_for('article_detail', slug='plano-de-seguranca') }}">
+  <span class="eyebrow">Plano de segurança</span>
+  <strong>Passos para uma saída mais segura</strong>
+  <small>Leitura de 4 minutos</small>
+</a>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro"><h1>Informação pode proteger</h1><p>Conteúdo revisto e baseado em fontes oficiais.</p></section>
+{% for article in articles if article.featured %}
+<a class="article-highlight" href="{{ url_for('article_detail', slug=article.slug) }}"><span class="eyebrow">Comece por aqui</span><strong>{{ article.title }}</strong><small>Leitura de {{ article.minutes }} minutos</small></a>
+{% endfor %}
+<h2 class="section-title">Outros temas</h2>
+<div class="card-list">
+{% for article in articles if not article.featured %}
+  <a class="list-card" href="{{ url_for('article_detail', slug=article.slug) }}"><span class="eyebrow">{{ article.category }}</span><strong>{{ article.title }}</strong><small>{{ article.minutes }} min · Guia informativo</small><span class="chevron" aria-hidden="true">›</span></a>
+{% endfor %}
+</div>
+{% endblock %}

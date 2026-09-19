@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="article-body">
+  <span class="eyebrow">{{ article.category }} · {{ article.minutes }} min</span>
+  <h1>{{ article.title }}</h1>
+  <p class="lead">{{ article.summary }}</p>
+  {% for section in article.sections %}<section><h2>{{ section.title }}</h2><p>{{ section.text }}</p></section>{% endfor %}
+  <a class="button button--primary button--full" href="{{ url_for('services') }}">Encontrar rede de apoio</a>
+  <p class="source-note">Conteúdo informativo · Revisado em 2026</p>
+</article>
+{% endblock %}

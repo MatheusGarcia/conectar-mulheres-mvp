@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informação e acesso à rede de apoio para mulheres em João Pessoa.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{ page_title }} · Conectar Mulheres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="app-shell">
+    {% block header %}
+    <header class="topbar">
+      {% if request.path != '/inicio' %}<button class="back-button" type="button" onclick="history.back()" aria-label="Voltar">←</button>{% endif %}
+      <a class="wordmark" href="{{ url_for('home') }}">CONECTAR MULHERES</a>
+      <button class="exit-button" type="button" data-quick-exit>Sair</button>
+    </header>
+    {% endblock %}
+
+    <main id="conteudo" class="content {% if hide_nav %}content--without-nav{% endif %}">
+      {% block content %}{% endblock %}
+    </main>
+
+    {% if not hide_nav %}
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <a class="{{ 'active' if active == 'home' }}" href="{{ url_for('home') }}"><span aria-hidden="true">⌂</span>Início</a>
+      <a class="{{ 'active' if active == 'services' }}" href="{{ url_for('services') }}"><span aria-hidden="true">⌖</span>Apoio</a>
+      <a class="{{ 'active' if active == 'articles' }}" href="{{ url_for('articles') }}"><span aria-hidden="true">≡</span>Artigos</a>
+      <a class="{{ 'active' if active == 'contact' }}" href="{{ url_for('trusted_contact') }}"><span aria-hidden="true">♡</span>Contato</a>
+    </nav>
+    {% endif %}
+  </div>
+  <div class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

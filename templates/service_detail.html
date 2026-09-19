@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-intro page-intro--compact"><h1>Detalhes do serviço</h1></section>
+<article class="detail-card">
+  <span class="detail-icon" aria-hidden="true">⌖</span>
+  <span class="eyebrow">{{ service.category }}</span>
+  <h2>{{ service.name }}</h2>
+  <p class="lead">{{ service.summary }}</p>
+  <p class="verified">✓ Fonte: <a href="{{ service.source_url }}" target="_blank" rel="noreferrer">{{ service.source_name }}</a></p>
+  <dl>
+    <dt>Atendimento</dt><dd>{{ service.summary }}</dd>
+    <dt>Endereço</dt><dd>{{ service.address }}</dd>
+    <dt>Horário</dt><dd>{{ service.hours }}</dd>
+  </dl>
+  <div class="button-row">
+    {% if service.map_url %}<a class="button button--primary" href="{{ service.map_url }}" target="_blank" rel="noreferrer">Ver rota</a>{% endif %}
+    {% if service.phone %}<a class="button button--outline" href="tel:{{ service.phone }}">Ligar</a>{% endif %}
+  </div>
+</article>
+<aside class="notice notice--amber"><strong>Confirme antes de ir</strong><p>Endereços e horários podem mudar em feriados.</p></aside>
+{% endblock %}

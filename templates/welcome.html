@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block header %}{% endblock %}
+{% block content %}
+<section class="welcome">
+  <div class="brand-mark" aria-hidden="true">CM</div>
+  <p class="eyebrow">Informação e apoio</p>
+  <h1>Encontre orientação e serviços próximos</h1>
+  <p class="welcome__lead">Um espaço discreto para acessar ajuda em João Pessoa, sem cadastro.</p>
+  <a class="button button--primary button--full" href="{{ url_for('home') }}">Entrar com segurança</a>
+  <button class="button button--ghost button--full" type="button" data-quick-exit>Sair rapidamente</button>
+  <aside class="notice notice--amber">
+    <strong>Antes de continuar</strong>
+    <p>Use um dispositivo seguro e apague o histórico se isso puder proteger você.</p>
+  </aside>
+  <p class="privacy-line">✓ Nenhum cadastro é necessário</p>
+</section>
+{% endblock %}
