@@ -1,33 +1,33 @@
-# Materiais da apresentação
+# Registro fotográfico da apresentação
 
-Esta pasta reúne os registros utilizados na apresentação do MVP **Conectar Mulheres**.
+Esta pasta reúne as seis imagens da apresentação do MVP **Conectar Mulheres**.
 
-## Estrutura
+## Galeria
 
-- `fotos/`: fotografias da apresentação, equipe, demonstração e público.
-- `video/`: gravação da apresentação ou demonstração do aplicativo.
+| Apresentação 1 | Apresentação 2 |
+| --- | --- |
+| <img src="fotos/1-apresentacao-projeto.jpg" width="360" alt="Registro 1 da apresentação do projeto Conectar Mulheres"> | <img src="fotos/2-apresentacao-projeto.jpg" width="360" alt="Registro 2 da apresentação do projeto Conectar Mulheres"> |
+| **Apresentação 3** | **Apresentação 4** |
+| <img src="fotos/3-apresentacao-projeto.jpg" width="360" alt="Registro 3 da apresentação do projeto Conectar Mulheres"> | <img src="fotos/4-apresentacao-projeto.jpg" width="360" alt="Registro 4 da apresentação do projeto Conectar Mulheres"> |
+| **Apresentação 5** | **Apresentação 6** |
+| <img src="fotos/5-apresentacao-projeto.jpg" width="360" alt="Registro 5 da apresentação do projeto Conectar Mulheres"> | <img src="fotos/6-apresentacao-projeto.jpg" width="360" alt="Registro 6 da apresentação do projeto Conectar Mulheres"> |
 
-## Sugestão de nomes
+## Arquivos
 
-Use nomes curtos, descritivos e numerados:
+As imagens originais estão disponíveis na pasta [`fotos/`](fotos/):
 
-```text
-fotos/
-├── 01-apresentacao-projeto.jpg
-├── 02-demonstracao-aplicativo.jpg
-└── 03-equipe.jpg
-
-video/
-└── apresentacao-conectar-mulheres.mp4
-```
+- `1-apresentacao-projeto.jpg`
+- `2-apresentacao-projeto.jpg`
+- `3-apresentacao-projeto.jpg`
+- `4-apresentacao-projeto.jpg`
+- `5-apresentacao-projeto.jpg`
+- `6-apresentacao-projeto.jpg`
 
 ## Recomendações
 
-- Prefira imagens em `.jpg`, `.png` ou `.webp`.
-- Prefira vídeo em `.mp4`, com compressão adequada para a web.
 - Não publique imagens de pessoas sem autorização.
 - Evite registrar dados pessoais, telas privadas ou informações sensíveis.
-- Se o vídeo for grande demais para um arquivo comum do GitHub, use Git LFS, um GitHub Release ou um serviço de vídeo e adicione o link neste documento.
+- Preserve os arquivos originais e utilize versões comprimidas quando necessário.
 
 ## Créditos e autorização
 
@@ -36,4 +36,4 @@ Registre abaixo a data da apresentação, o local, os autores e a confirmação 
 - **Data:**
 - **Local:**
 - **Autores:**
-- **Autorização de imagem:**
+- **Autorização de imagem:** registrar a confirmação dos participantes quando aplicável.
