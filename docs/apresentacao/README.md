@@ -1,6 +1,6 @@
 # Registro fotográfico da apresentação
 
-Esta pasta reúne as seis imagens da apresentação do MVP **Conectar Mulheres**.
+Esta pasta reúne as imagens da apresentação do MVP **Conectar Mulheres**.
 
 ## Galeria
 
@@ -23,17 +23,3 @@ As imagens originais estão disponíveis na pasta [`fotos/`](fotos/):
 - `5-apresentacao-projeto.jpg`
 - `6-apresentacao-projeto.jpg`
 
-## Recomendações
-
-- Não publique imagens de pessoas sem autorização.
-- Evite registrar dados pessoais, telas privadas ou informações sensíveis.
-- Preserve os arquivos originais e utilize versões comprimidas quando necessário.
-
-## Créditos e autorização
-
-Registre abaixo a data da apresentação, o local, os autores e a confirmação de autorização de uso das imagens quando aplicável.
-
-- **Data:**
-- **Local:**
-- **Autores:**
-- **Autorização de imagem:** registrar a confirmação dos participantes quando aplicável.
