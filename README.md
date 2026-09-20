@@ -1,6 +1,7 @@
 # Conectar Mulheres — MVP 1
 
 Atividade extensionista II do curso de Ciências de Dados EAD Uninter - B fase I 2026
+
 **Alunos:** Karina Regina de Carvalho - RU 5604514 e Matheus Felipe Garcia - RU 5604539
 
 Aplicação web mobile-first para acesso discreto a informação e à rede de apoio para mulheres em João Pessoa/PB. O MVP usa Python + Flask, não possui login, banco de dados, analytics ou envio automático de mensagens.
