@@ -26,6 +26,8 @@ O quadro completo e editável está em [`deliverables/conectar-mulheres-mockups-
 ## Formulário de pesquisa
 [Formulário de pesquisa - Conectar Mulheres](https://docs.google.com/forms/d/e/1FAIpQLSe9_VBbwxT2y9VsaigcOPoLdLpQ8WNwf7M8EIf7bZt7jFEHTw/viewform)
 
+## Apresentação do projeto
+As imagens da pesquisa e apresentação do projeto para a comunidade, encontram-se em [`docs/apresentacao`](docs/apresentacao)
 
 ## Limites desta versão
 
